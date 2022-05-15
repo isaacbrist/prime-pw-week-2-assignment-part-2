@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we make a variable called Dane
+// We check to see if name is Mary, if yes, we console log "Hi, Mary"
+// Otherwise, we console log "How do you do?"
 //
 
 //CODE
@@ -45,11 +45,15 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called secret
+//We make a variable called code and set it equal to 123.
+//then we check to see if it i true that code is an exact match to 123. 
+// If that is true, then we set secret equal to super and set code equal 
+//itself multiplied by 2. 
+// Then we check to see if code is greater than 250, if it is, then we set 
+//secret equal to duper.
+//Then we console log secret, which should give us the response of "super."
 //
-
 //CODE
 /*
 let secret;
@@ -70,11 +74,19 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called isStudent and set it to true. 
+// We also make a variable called age and set it to 34.
+// We make a variable called zip and set it to 55407
+// We check to see if isStudent is exactly true and if the zip is greater
+//than 80000. If both of those were true, then we console log "You're a 
+//student on the West Coast!"
+//Otherwise we check to see if isStudent exactly equals false or if the age 
+//is less than 30 If either one of those instances is met, then we 
+// console log "What are your hobbies?"
+//Otherwise we check to see if isStudent is exactly true, then we console log
+// "Welcome to Prime!"
+//Otherwise we console log "How about the weather?"
 //
-
 //CODE
 /*
 let isStudent = true;
@@ -130,10 +142,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//in the above desccription, colorOne should be blue and colorTwo should be 
+//red
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+//this is missing a line of code. We should add the following under colorOne
+//colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -144,11 +159,14 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//Time should be a variable not a constant. so "let time = 4;"
 let temp = 40;
 const time = 4;
-
-if (temp > 39 || time >= 4) {
-  console.log('throw away the food!');
+// || meanes "Or" we want "and" so it should use "&&" so it should say 
+//"if (temp > 39 && time >= 4)
+//{console.log('throw away the food!');"
+//if (temp > 39 || time >= 4) {
+//  console.log('throw away the food!');
 }
 */
 
@@ -157,13 +175,20 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+//We want two variables not a variable and a constant, so it should be 
+//let minAge = 21;
 let age = 21;
 const minAge = 21;
-
+//Currently, how this code is written, it would deny entry to anyone below
+// the minAge AND anyone equal to it. It should use just a "<" sign.
+//if(minAge < age) {
+//  console.log('no entry');
+} else {
+  console.log('enter');
+}
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
