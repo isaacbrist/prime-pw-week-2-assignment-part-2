@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// we make a variable called Dane
+// We make a variable called name and set it equal to 'Dane'
 // We check to see if name is Mary, if yes, we console log "Hi, Mary"
 // Otherwise, we console log "How do you do?"
 //
@@ -179,12 +179,11 @@ const time = 4;
 //let minAge = 21;
 let age = 21;
 const minAge = 21;
-//Currently, how this code is written, it would deny entry to anyone below
-// the minAge AND anyone equal to it. It should use just a "<" sign.
-//if(minAge < age) {
-//  console.log('no entry');
-} else {
+//The console.log statements are swapped. They should read:
+//if(minAge <= age) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 if(minAge <= age) {
   console.log('no entry');
